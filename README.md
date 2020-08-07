@@ -1,7 +1,7 @@
 # semanticLayoutCorrection
 Changes I made will be given in a bulleted list below:
-- the div with class="header" was changed to section
-- the div tags containting the ul within the header were changed to nav tags.
+- The div with class="header" was changed to section
+- The div tags containting the ul within the header were changed to nav tags.
 - The ul was given an id, and the li elements were given a class; appropriate changes were made in the CSS document.
 - The div tags with class="hero" were changed to section tags as I felt this part of the page was it's own section.
 - The divs with class="benefits" and class="content" were changed to section tags.
