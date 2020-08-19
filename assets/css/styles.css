@@ -1,13 +1,16 @@
+/* Formating for entire html document */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Formating for body of html document */
 body {
     background-color: #d9dcd6;
 }
 
+/* Formating for header of html document */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Formating for text of the webpage title */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Formating for a few middle letters of the webpage title*/
 .header h1 .seo {
     color: #5d6163;
 }
 
+/* Formating for the nav section of the header */
 .header nav {
     padding-top: 20px;
     margin-right: 20px;
@@ -32,6 +38,7 @@ body {
     font-size: 20px;
 }
 
+/* Formating for the unordered list content section */
 #ul1 {
     list-style-type: none;
     padding-top: 5px;
@@ -40,22 +47,21 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-    
+   
+/* Formating for the list items of the unordered list in the nav bar */
 .li1 {
     display: inline-block;
     margin-left: 25px;
     color: #222f3d;
 }
 
+/* Formating for anchor tags of nav bar*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Formating for the image-as-background in the middle of the page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -65,22 +71,19 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+/* Formating for paragraph text */
+p {
+    font-size: 16px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Formating for the main content of the page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Formating for each content article section on the page */
 #search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -90,15 +93,30 @@ p {
     color: #ffffff;
 }
 
+/* Float the image of the first content article to the left and add margin */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Float the image of the second content article to the right and add margin */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Formating for the image height of each content article on the page */
 #search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
     max-height: 200px;
 }
 
+/* Formating for each heading of each content article on the page*/
 #search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Formating for the entire sidebar section of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -110,22 +128,26 @@ p {
     background-color: #678fbb;
 }
 
+/* Formating for each sidebar article section of the page */
 #benefit-lead, #benefit-brand, #benefit-cost{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Formating for each sidebar article header of the page */
 #benefit-lead h3, #benefit-brand h3, #benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Formating for each sidebar article image of the page */
 #benefit-lead img, #benefit-brand img, #benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Formating for the entire footer of the page */
 .footer {
     padding: 30px;
     clear: both;
@@ -133,6 +155,7 @@ p {
     text-align: center;
 }
 
+/* Formating for the footing header */
 .footer h2 {
     font-size: 20px;
 }
