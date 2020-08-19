@@ -1,4 +1,21 @@
 # semanticLayoutCorrection
+Link to live url: https://tzcodes101.github.io/semanticLayoutCorrection/
+
+HOMEWORK EDITS:
+- Added link to the live url in the readme.md
+- Changed the benefits code to come after the main content code of the page.
+- Added alt image text for the .hero image and the benefits images.
+- Changed the footer section from div tags to footer tags.
+- Added additional html and CSS comments.
+- Re-ordered the CSS document to have a more "top-down" layout, so the styling for the entire content code comes before the styling for the sections within the content code. 
+- Added an "Images of Live Site" folder with screenshots of the live site.
+
+
+
+
+
+
+
 Changes I made will be given in a bulleted list below:
 - The div with class="header" was changed to section
 - The div tags containting the ul within the header were changed to nav tags.
